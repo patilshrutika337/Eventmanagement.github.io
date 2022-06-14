@@ -1,0 +1,186 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Event Planner!!!!</title>
+<link href="template.css" rel="stylesheet" type="text/css" />
+
+       <style>
+    fieldset{
+      width: 580px;
+      height: 640px;
+      border-radius: 30px;
+      background-color:#778899;
+
+    }
+    td{
+      text-decoration: none;
+      font-size: 18px;
+      text-decoration-style: solid;
+    }
+    input{
+      width:182px; 
+      height:25px;
+      border-radius:5px;
+      outline:none;
+      text-indent: 5px;  
+    }
+    input[type="submit"]:hover{
+      background-color:aqua; 
+    }
+    input[type="reset"]:hover{
+      background-color:aqua; 
+    }
+    textarea{
+      width:182px;
+      border-radius:10px;
+      outline:none;
+      text-indent:5px;    
+    }
+    table{
+      line-height:30px; 
+    }
+
+
+    
+  </style>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+<div id="templatemo_container">
+	<div id="templatemo_banner">
+    	<marquee direction="right"><div id="logo"></div></marquee>
+	<!--h2><marquee direction="left">Event Planner</marquee></h2-->
+
+
+    </div> <!-- end of banner -->
+    
+    <div id="templatemo_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">Gallery</a></li>
+            <li><a href="page2.html">Eventes</a></li>
+            <li><a href="registraction page.html">Registration</a></li>
+           <li class="last"><a href="contact.html">Contact Us</a></li>
+        </ul>   
+	</div> <!-- end of menu -->
+
+	<div id="templatemo_content_wrapper">
+    	<div id="templatemo_content">
+        <div class="header_01">
+            
+            </div>
+
+            <center>
+    <form name="form">
+      <fieldset>
+        <table>
+          <b><h1>Feedback</h1></b>
+          <h2>****************</h2>
+          <tr>
+            <td>User Name</td>
+            <td>:</td>
+            <td><input type="text" name="uname"  placeholder="Enter Your Name" required></td>
+          </tr>
+          <tr>
+            <td>E-mail id</td>
+            <td>:</td>
+            <td><input type="text" name="eid"  placeholder="Enter Your E-mail id" required></td>
+          </tr>
+          <tr>
+            <td>Contact No</td>
+            <td>:</td>
+            <td><input type="number" name="no"  placeholder="Enter Your Contact No" required></td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>:</td>
+            <td><input type="text" name="add"  placeholder="Enter Your Address" required></td>
+            <tr>
+            <td>Your Suggestion</td>
+            <td>:</td>
+            <td><textarea rows="5" cols="21" name=""  placeholder="your suggestion" required></textarea></td>
+          </tr>
+          <tr>
+            <td>How can we improve it? if any</td>
+            <td>:</td>
+            <td> <textarea rows="5" cols="21"  placeholder="How can we improve it? if any" required></textarea></td>
+          </tr>
+          <tr>
+            <td><input type="submit" onClick="validation(this.form)" value="SEND" style="width: 180px;" height="35px;" name="" id=""></td>
+            <td></td>
+            <td><input type="reset" value="RESET" style="width: 180px;" height="35px;" name="" id=""></td>
+          </tr>
+
+
+          <script type="text/javascript">
+              function validation(f){
+                if(f.uname.value == "" || f.uname.value == null ||
+                  f.eid.value == "" || f.eid.value == null ||
+                  f.no.value == "" || f.no.value == null){
+                    window.alert("Enter All Fields");
+                }    
+                else{  
+                    window.alert("Thanks For Feedback");
+                }
+              }
+          </script>
+            
+
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </center>
+
+        
+
+
+
+
+
+
+
+    	<div class="cleaner"></div>
+	</div> <!-- end of wrapper 02 -->        
+    </div></div> <!-- end of wrapper 01 -->
+
+
+<div class="footer_margin">
+<div id="templatemo_footer">
+    
+    <ul class="footer_list">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="page2.html">Gallery</a></li>
+            <li><a href="page2.html">Eventes</a></li>
+            <li><a href="registraction page.html">Registration</a></li>
+           <li class="last"><a href="contact.html">Contact Us</a></li>
+        </ul> 
+        
+        <div class="margin_bottom_10"></div>
+        
+        
+        
+        <div class="margin_bottom_10"></div>
+        
+       
+                
+   	</div> <!-- end of footer -->
+</div></div> <!-- end of container -->
+
+
+</html>
+
+
+            
+	        
+        
+    
+    

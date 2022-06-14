@@ -1,0 +1,210 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Event Planner!!!!</title>
+<link href="template.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="templatemo_container">
+	<div id="templatemo_banner">
+    	<marquee direction="right"><div id="logo"></div></marquee>
+	<!--h2><marquee direction="left">Event Planner</marquee></h2-->
+</div> <!-- end of banner -->
+
+ <div class="margin_bottom_10"></div>
+        <div id="templatemo_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">Gallery</a></li>
+            <li><a href="page2.html">Eventes</a></li>
+            <li><a href="registration.html">Registration</a></li>
+           <li class="last"><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html"><span></span>Contact Us</a></li>
+            <li><a href="About.html"><span></span>About Us</a></li>
+             <li><a href="login.html"><span></span>Login</a></li>
+            
+
+        </ul>   
+  </div> <!-- end of menu -->
+
+  
+
+        
+        <div class="margin_bottom_10"></div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment</title>
+<style type="text/css">
+  body{
+    background: #444;
+  }
+  .form{
+    background: #fff;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .cnumber, .hname{
+    width: 256px;
+    height: 20px;
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  .cnumber:focus, .hname:focus, .cvv:focus{
+    background: #eee;
+  }
+  .btn{
+    width: 200px;
+    margin-left: 30px;
+    height: 30px;
+    background: orange;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .month, .year{
+    width: 70px;
+    height: 20px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin: 10px;
+  }
+  .cvv{
+    width: 50px;
+    height: 18px;
+    font-size: 16px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    margin-left: 0px;
+    border-radius: 3px;
+  }
+  label{
+    margin-left: 10px;
+    color:  black;
+  }
+  
+  
+
+</style>
+
+</head>
+<body>
+
+  <form name="form" class="form">
+      <label>Payment by Credit Card</label>
+    <table border="0">
+      <tr>
+        <td colspan="4"><input type="text" placeholder="card number" maxlength="12" minlength="12" name="cnumber" class="cnumber"></td>
+      </tr>
+      <tr>
+        <td><label>Valid thru</label></td><td><td></td></td>
+        <td><label>CVV</label></td>
+      </tr>
+      <tr>
+        <td><select class="month">
+            <option>01 (Jan)</option>
+            <option>02 (Feb)</option>
+            <option>03 (Mar)</option>
+            <option>04 (Apr)</option>
+            <option>05 (May)</option>
+            <option>06 (Jun)</option>
+            <option>07 (Jul)</option>
+            <option>08 (Aug)</option>
+            <option>09 (Sep)</option>
+            <option>10 (Oct)</option>
+            <option>11 (Nov)</option>
+            <option>12 (Dec)</option>
+        </select></td>
+        <td><label>20</label></td>
+        <td><select class="year">
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+        </select></td>
+        <td><input type="password" maxlength="3" minlength="3" name="cvv" class="cvv"></td>
+      </tr>
+      <tr>
+        <td colspan="4"><input type="text" placeholder="card holder name" name="hname" class="hname"></td>
+      </tr>
+      <tr>
+        <td colspan="4"><button type="Submit" onClick="validation(this.form)" value="Pay" class="btn">Pay</button></td>
+      </tr>
+        <td colspan="4"><input type="Submit"  value="Cancel" class="btn"></td>
+    </table>
+  </form>
+
+  <script type="text/javascript">
+    function validation(frm){
+      if(frm.cnumber.value == "" || frm.cnumber.value == null){
+            window.alert("Enter card number");
+      }else{
+        if(frm.cvv.value == "" || frm.cvv.value == null){
+            window.alert("Enter cvv number");
+        }else{
+          if(frm.hname.value == "" || frm.hname.value == null){
+            window.alert("Enter Card holder name");
+          }else{
+            if(isNaN(frm.cnumber.value)){
+              window.alert("Enter 12 digit card Number Properly");
+            }
+            else if (isNaN(frm.cvv.value)) {
+              window.alert("Enter 3 digit cvv Number Properly");  
+            }
+            else{
+              window.alert("Payment Successfull");
+            }
+          }
+        } 
+      }
+    }
+  </script>
+
+
+<div id="templatemo_footer">
+    
+    <ul class="footer_list">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="page2.html">Gallery</a></li>
+            <li><a href="page2.html">Eventes</a></li>
+            <li><a href="registraction page.html">Registration</a></li>
+           <li class="last"><a href="contact.html">Contact Us</a></li>
+        </ul> 
+        
+        
+       
+                
+    </div> <!-- end of footer -->
+
+
+
+</body>
+</html>
+
+        
+</html>
+
+
+            
+	        
+        
+    
+    

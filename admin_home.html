@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Panel</title>
+	<style>
+		body{
+               margin:0px;
+               border:0px;
+           }
+ #header{
+ 	       width:100%;
+           height:120px;
+           background:#eff;
+           color:white;
+           display: inline-flex;
+                    
+ }  
+ #sidebar{
+ 	       width:300px;
+ 	       height:600px;
+ 	       background:#27ae60;
+ 	       float:left; 
+ 	       
+ }
+#data{
+	      height:700px;
+	      background:#20B2AA;
+	      color: white;
+	      font-family:monospace;
+	      font-size:30px;
+}
+#adminlogo{
+	       background:white;
+	       border-radius:500px;
+}        
+ul li{
+	      padding:20px;
+	      border-bottom:2px solid gray;
+}
+ul li:hover{
+	         background:red;
+	         color:white;
+}
+h5 a{
+	text-decoration: none;
+	font-size: 22px;
+	margin-left: 400px;
+	color: white;
+	background: black;
+	padding: 10px;
+
+}		
+h5 a:hover{
+	background: #222;
+	font-size: 24px;
+}
+img{
+	margin-left: 600px;
+}
+</style>
+</head>
+<body>
+	<div id="header">
+		<img src="images/icon21.jpeg" style=""  height="119" width="119">
+		<h5><a href="index.html">Log Out</a></h5>		
+	</div>
+<div id="sidebar">
+	<ul>
+		<li><a href="add_data.html" target="f1"> Add Events</a></li>
+		<li><a href="modify.html" target="f1"> Modify Events</a></li>
+		<li><a href="offers.html" target="f1">Add latests offers</a></li></li>
+		<li><a href="add news.html" target="f1"> Add News</a></li></li>
+		<li>Feedback report</li>
+		<li><a href="changepassword.html" target="f1">change password</a></li></li>
+	</ul>
+</div>
+<div id="data"><br>
+<iframe height="600px" width="900px" name="f1" style="border: 0px">
+</iframe>	
+</div>
+
+</body>
+</html>

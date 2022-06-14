@@ -1,0 +1,227 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Event Planner!!!!</title>
+<link href="template.css" rel="stylesheet" type="text/css" />
+
+
+
+  <style>
+    fieldset{
+      width:400px;
+      height:500px;
+      border-radius: 30px;
+      outline:2px dashed #E3F2FD;
+      outline-offset:-10px;  
+      background-color:#A52A2A;
+
+    }
+    td{
+      text-decoration: none;
+      font-size: 18px;
+      text-decoration-style: solid;
+    }
+    input{
+      width:182px; 
+      height:25px;
+      border-radius:5px;
+      outline:none;
+      text-indent: 5px;  
+    }
+    input[type="submit"]:hover{
+      background-color:aqua; 
+    }
+    input[type="reset"]:hover{
+      background-color:aqua; 
+    }
+    textarea{
+      width:182px;
+      border-radius:10px;
+      outline:none;
+      text-indent:5px;    
+    }
+    table{
+      line-height:30px; 
+    }
+
+
+    </style>
+</head>
+<body>
+<div id="templatemo_container">
+	<div id="templatemo_banner">
+    	<marquee direction="right"><div id="logo"></div></marquee>
+	<!--h2><marquee direction="left">Event Planner</marquee></h2-->
+
+
+    </div> <!-- end of banner -->
+    
+    <div id="templatemo_menu">
+        <ul>
+           <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="page2.html">Gallery</a></li>
+            <li><a href="page2.html">Eventes</a></li>
+            <li><a href="registraction page.html">Registration</a></li>
+          <li class="last"><a href="contact.html">Contact Us</a></li>
+        </ul>   
+	</div> <!-- end of menu -->
+
+	<div id="templatemo_content_wrapper">
+    	<div id="templatemo_content">
+        <div class="header_01">
+            
+            </div>
+            
+                    <center>
+    <form>
+      <fieldset>
+        <table>
+
+          <b><h1>Events Booking Form</h1></b>
+          <tr>
+            <td>Event Name</td>
+            <td>:</td>
+            <td><input type="text" name="name" id="pqr" placeholder="Enter Your Name"><br></td>
+            <br>
+          </tr>
+          <tr>
+            <td>E-mail id</td>
+            <td>:</td>
+            <td><input type="text" name="email" id="pr" placeholder="Enter Your E-mail id" required></td><br>
+          </tr>
+          <tr>
+            <td>Contact No</td>
+            <td>:</td>
+            <td><input type="number" name="contact" id="pqkr" placeholder="Enter Your Contact No" required></td>
+          </tr>
+          <tr>
+            <tr>
+            <td><input type="submit" value="submit" onClick="validation(this.form)" style="width: 180px;" height="35px;"></td>
+            <td></td>
+            <td><input type="reset" value="RESET" style="width: 180px;" height="35px;" name="" id=""></td>
+
+          </tr>
+
+
+
+<script>
+	function validation(frm){
+		if(frm.name.value == null || frm.name.value == "" ||
+			frm.email.value == null || frm.email.value == ""  ||
+			frm.contact.value == null || frm.contact.value == ""){
+			window.alert("Enter All Fields");
+		}
+		else{
+			if(frm.email.value.indexOf("@") < 1 || frm.email.value.lastIndexOf(".") < 2){
+				window.alert("Invalid Email");
+			}
+			else{
+				window.alert("Forwarding to next page");
+				window.open("templ_payment.html");
+			}
+		}
+	}
+
+</script>	
+
+          </tr>
+        </table>
+        <a href="wedding.html"> Go_To_Events</a>
+      </fieldset>
+    </form>
+  </center>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	<div class="cleaner"></div>
+	</div> <!-- end of wrapper 02 -->        
+    </div></div> <!-- end of wrapper 01 -->
+
+
+
+<div id="templatemo_container">
+ <div class="margin_bottom_20 h_divider"></div>        
+        <div class="margin_bottom_20"></div>
+        
+        <div class="column_w920">
+        
+      <div class="column_w190 fl margin_right_40">
+            	<a href="cart.html"><img src="images/s6.jpg" alt="image" /></a>
+              <p> <a href="#" style="margin-left:50px">Rs.20000 <p>Book_Event</p> </a></p>                
+          </div>
+            
+      <div class="column_w190 fl margin_right_40">
+            	<a href="cart.html"><img src="images/s7.jpg" alt="image" /></a>
+          <p><center></center><a href="#" style="margin-left:50px">Rs.650000 <p style="margin-left: 50px">Book_Event</p></a></p>                
+          </div>
+            
+      <div class="column_w190 fl margin_right_40">
+            	<a href="cart.html"><img src="images/s11.jpg" alt="image" /></a>
+          <p><center></center><a href="#" style="margin-left:50px">Rs.780000 <p style="margin-left:50px">Book_Event</p></a></p>                
+          </div>
+            
+      <div class="column_w190 fl">
+            	<a href="cart.html"><img src="images/s12.jpg" alt="image" /></a>
+          <p><center></center><a href="#" style="margin-left:50px">Rs.850000 <p style="margin-left:50px">Book_Event</p></a></p>                
+          </div>
+        
+       	  <div class="margin_bottom_15"></div>
+        </div>
+    
+    	<div class="cleaner"></div>
+	</div> <!-- end of wrapper 02 -->        
+    </div></div> <!-- end of wrapper 01 -->
+
+
+<div class="footer_margin">
+<div id="templatemo_footer">
+    
+    <ul class="footer_list">
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="page2.html">Gallery</a></li>
+            <li><a href="page2.html">Eventes</a></li>
+            <li><a href="registraction page.html">Registration</a></li>
+          <li class="last"><a href="contact.html">Contact Us</a></li>
+        </ul> 
+        
+        <div class="margin_bottom_10"></div>
+        
+        <a href="#"></a><a href="http://www.iwebsitetemplate.com" target="_parent"></a> <a href="http://www.templatemo.com" target="_parent"></a>
+        
+        <div class="margin_bottom_10"></div>
+        
+       
+                
+   	</div> <!-- end of footer -->
+</div></div> <!-- end of container -->
+
+<div align=center><a href='http://all-free-download.com/free-website-templates/'></a></div></body>
+</html>
+
+
+            
+	        
+        
+    
+    
